@@ -13,5 +13,5 @@
 2. Run `npm i` to install all the dependencies.
 3. Create a `.env` file in the `frontend` directory based on `.env.example`.
 4. Run `npm start` to start the development server.
-5. The frontend will be running on PORT 3001.
+5. The frontend will be running on PORT available port.
 6. Ensure the backend is running before testing the frontend.
