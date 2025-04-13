@@ -91,14 +91,29 @@ Ensure you have the following installed on your system:
 ## Environment Variables
 ** The application requires the following environment variables:
 
-# Backend
-COSMOS_DB_URI: URI for the CosmosDB instance.
-COSMOS_DB_KEY: Access key for CosmosDB.
-DATABASE_NAME: Name of the database.
-CONTAINER_NAME: Name of the container.
+## Backend
+**COSMOS_DB_URI**: URI for the CosmosDB instance.
+**COSMOS_DB_KEY**: Access key for CosmosDB.
+**DATABASE_NAME**: Name of the database.
+**CONTAINER_NAME**: Name of the container.
 
-# Frontend
-VITE_RAPIDAPI_KEY: API key for the data breach detection service.
-VITE_RAPIDAPI_HOST: Host for the data breach detection service.
+## Frontend
+**VITE_RAPIDAPI_KEY**: API key for the data breach detection service.
+**VITE_RAPIDAPI_HOST**: Host for the data breach detection service.
 
 Refer to the .env.example files in both the backend and frontend directories for more details.
+
+## API Documentation
+1. The API documentation is available in the Postman collection file located in the root directory.
+2. Import the collection into Postman to view and test all available endpoints.
+
+## Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Submit a pull request with a detailed description of your changes.
+
+## License
+This project is licensed under the MIT License.
