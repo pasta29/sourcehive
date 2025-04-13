@@ -104,8 +104,8 @@ Ensure you have the following installed on your system:
 Refer to the .env.example files in both the backend and frontend directories for more details.
 
 ## API Documentation
-1. The API documentation is available in the Postman collection file located in the root directory.
-2. Import the collection into Postman to view and test all available endpoints.
+ - The API documentation is available in the Postman collection file located in the root directory.
+ - Import the collection into Postman to view and test all available endpoints.
 
 ## Contributing
 Contributions are welcome! To contribute:
