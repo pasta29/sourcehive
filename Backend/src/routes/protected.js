@@ -3,8 +3,6 @@ const jwt = require('jsonwebtoken');
 
 const router = express.Router();
 
-
-
 router.get('/dashboard', (req, res) => {
   const authHeader = req.headers.authorization;
   if (!authHeader) return res.status(401).json({ message: 'Missing token' });
