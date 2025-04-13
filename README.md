@@ -81,3 +81,24 @@ Ensure you have the following installed on your system:
 
 5. **Ensure Backend is Running**:
    - Make sure the backend is running before testing the frontend.
+
+## Usage
+1. Open the frontend in your browser (e.g., http://localhost:3001).
+2. Add your credentials using the form provided.
+3. Use the "Check Leak" button to verify if your credentials have been compromised.
+4. Manage your credentials by viewing or deleting them as needed.
+
+## Environment Variables
+** The application requires the following environment variables:
+
+# Backend
+COSMOS_DB_URI: URI for the CosmosDB instance.
+COSMOS_DB_KEY: Access key for CosmosDB.
+DATABASE_NAME: Name of the database.
+CONTAINER_NAME: Name of the container.
+
+# Frontend
+VITE_RAPIDAPI_KEY: API key for the data breach detection service.
+VITE_RAPIDAPI_HOST: Host for the data breach detection service.
+
+Refer to the .env.example files in both the backend and frontend directories for more details.
